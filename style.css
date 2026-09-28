@@ -1,0 +1,84 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+h1, h2, h3{
+    color: #D3AF37;
+}
+header{
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    margin: -10px;
+}
+#buton{
+    background-color: #D3AF37;
+    color: #000;
+    padding: 10px 20px;
+    margin-left: 95%;
+    border: none;
+    cursor: pointer;
+}
+main{
+    max-width: 800px;
+    text-align: left;
+    font-size: 20px;
+}
+footer{
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -10px;
+}
+#login-page{
+    background-color: #111;
+    color: #fff;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+input{
+    padding: 5px 20px;
+}
+#register-button{
+    background-color: #D3AF37;
+    padding: 10px 20px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+#imagemuser {
+    display: none;
+}
+
+.upload-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    padding: 0 15px;
+    background-color: #1b1b1b;
+    color: #888;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.upload-imagem:hover {
+    color: aliceblue;
+    border-color: aliceblue;
+}
+#preview-imagem {
+    display: none;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px auto;
+    border: 2px solid #D3AF37;
+}
